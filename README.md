@@ -1,92 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Porównanie procesorów</title>
+</head>
+<body>
 
-<html> 
-<head> 
-<meta charset="UTF-8"> 
-<title>Tabela HTML</title> 
-</head> 
-<body> 
-      
-<table border=2> 
-      <table style="border:6px solid skyblue;border-collapse: collapse;">
-<caption>Tabela HTML przykłady</caption> 
-<thead> 
-<tr> 
-<th>Model procesora</th> 
-<th>Taktowanie bazowe</th> 
-<th>Liczba rdzeni</th> 
-<th>Pamięć cache</th> 
-<th>Typ chłodzenia</th> 
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; font-family: Arial;">
+
+<thead>
+<tr bgcolor="#E6E600">
+  <th>Nr procesora</th>
+  <th>Taktowanie zegara (w GHz)</th>
+  <th>Częstotliwość w trybie turbo (w GHz)</th>
+  <th>Rdzenie / wątki</th>
+  <th>Pamięć podręczna</th>
 </tr>
-      </thead> 
-   <tbody>
-        <tr> 
-        <tr style="background-color: #FFD86F;"> 
-         <td>Intel i9-14900K </td> 
-         <td>3.2 GHz</td> 
-         <td>24</td> 
-         <td>36 MB</td> 
-         <td>Aktywne</td> 
-      </tr> 
-         
-      <tr> 
-             <tr style="background-color: #FFB347;"> 
-         <td>Intel i7-11700K</td> 
-         <td>3.6 GHz </td> 
-         <td>8</td> 
-         <td>16 MB</td> 
-         <td>Aktywne</td> 
-      </tr> 
-          
-      <tr> 
-            <tr style="background-color: #FFA45B;"> 
-         <td>AMD Ryzen 9 7950X</td> 
-         <td>4.5 GHz</td> 
-         <td>16</td> 
-         <td>64 MB</td> 
-         <td>Aktywne</td> 
-      </tr>
-          
-       <tr> 
-             <tr style="background-color: #FF8163;"> 
-         <td>AMD Ryzen 9 5900X</td> 
-         <td>3.7 GHz</td> 
-         <td>12</td> 
-         <td>64 MB</td> 
-         <td>Aktywne</td> 
-       </tr>
-          
-       <tr> 
-             <tr style="background-color: #FF5F6D;"> 
-         <td>AMD Ryzen 7 7800X3D</td> 
-         <td>4.2 GHz</td> 
-         <td>8</td> 
-         <td>96 MB</td> 
-         <td>Aktywne</td>
-       </tr>
-          
-       <tr> 
-             <tr style="background-color: #D7263D;"> 
-         <td>AMD Ryzen 5 5600X</td> 
-         <td>3.7 GHz</td> 
-         <td>6</td> 
-         <td>32 MB</td> 
-         <td>Aktywne</td>
-            <A HREF="index.html"> wróć </A>  
-           
-             
-      </tr> 
-   </tbody> 
-</table> 
-</body> 
+</thead>
+
+<tbody>
+
+<tr bgcolor="#A8D08D">
+  <td>Intel® Core™ i9-14900K</td>
+  <td>3.2</td>
+  <td>Max 6.0 GHz</td>
+  <td>24 (8P + 16E) / 32</td>
+  <td>36 MB</td>
+</tr>
+
+<tr bgcolor="#385723" style="color:white;">
+  <td>Intel® Core™ i7-14700K</td>
+  <td>3.4</td>
+  <td>Max 5.6 GHz</td>
+  <td>20 (8P + 12E) / 28</td>
+  <td>33 MB</td>
+</tr>
+
+<tr bgcolor="#A8D08D">
+  <td>AMD Ryzen™ 9 7950X</td>
+  <td>4.5</td>
+  <td>Max 5.7 GHz</td>
+  <td>16 / 32</td>
+  <td>64 MB</td>
+</tr>
+
+<tr bgcolor="#385723" style="color:white;">
+  <td>AMD Ryzen™ 7 7800X3D</td>
+  <td>4.2</td>
+  <td>Max 5.0 GHz</td>
+  <td>8 / 16</td>
+  <td>96 MB (3D V-Cache)</td>
+</tr>
+
+<tr bgcolor="#A8D08D">
+  <td>Intel® Core™ i5-14600K</td>
+  <td>3.5</td>
+  <td>Max 5.3 GHz</td>
+  <td>14 (6P + 8E) / 20</td>
+  <td>24 MB</td>
+</tr>
+
+</tbody>
+</table>
+
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
